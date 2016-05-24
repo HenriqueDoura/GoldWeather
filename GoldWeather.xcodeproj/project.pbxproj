@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50D6C8F398FDD5AFFFC90617 /* Pods_GoldWeather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87BDE33E367975FAB594C0A5 /* Pods_GoldWeather.framework */; };
 		BEBA74971CF254F600206117 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBA74961CF254F600206117 /* AppDelegate.swift */; };
-		BEBA74991CF254F600206117 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBA74981CF254F600206117 /* ViewController.swift */; };
 		BEBA749C1CF254F600206117 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEBA749A1CF254F600206117 /* Main.storyboard */; };
 		BEBA749E1CF254F600206117 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEBA749D1CF254F600206117 /* Assets.xcassets */; };
 		BEBA74A11CF254F600206117 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEBA749F1CF254F600206117 /* LaunchScreen.storyboard */; };
+		BEBA74A91CF2590900206117 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBA74A81CF2590900206117 /* Constants.swift */; };
+		BEBA74B41CF267E600206117 /* ChooseLocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBA74B31CF267E600206117 /* ChooseLocationVC.swift */; };
+		BEBA74B81CF27D4E00206117 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBA74B71CF27D4E00206117 /* Weather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18F659B1783B854572689FA9 /* Pods-GoldWeather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoldWeather.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoldWeather/Pods-GoldWeather.debug.xcconfig"; sourceTree = "<group>"; };
+		3F14635B76C4EB80A01F4CD2 /* Pods-GoldWeather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoldWeather.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoldWeather/Pods-GoldWeather.release.xcconfig"; sourceTree = "<group>"; };
+		87BDE33E367975FAB594C0A5 /* Pods_GoldWeather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoldWeather.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEBA74931CF254F600206117 /* GoldWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoldWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEBA74961CF254F600206117 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BEBA74981CF254F600206117 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BEBA749B1CF254F600206117 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BEBA749D1CF254F600206117 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEBA74A01CF254F600206117 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEBA74A21CF254F600206117 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEBA74A81CF2590900206117 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BEBA74B31CF267E600206117 /* ChooseLocationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseLocationVC.swift; sourceTree = "<group>"; };
+		BEBA74B71CF27D4E00206117 /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50D6C8F398FDD5AFFFC90617 /* Pods_GoldWeather.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		64004A77560D2A4B974F658D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87BDE33E367975FAB594C0A5 /* Pods_GoldWeather.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8EA4126AD72455F7E0A22FA2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18F659B1783B854572689FA9 /* Pods-GoldWeather.debug.xcconfig */,
+				3F14635B76C4EB80A01F4CD2 /* Pods-GoldWeather.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BEBA748A1CF254F600206117 = {
 			isa = PBXGroup;
 			children = (
 				BEBA74951CF254F600206117 /* GoldWeather */,
 				BEBA74941CF254F600206117 /* Products */,
+				8EA4126AD72455F7E0A22FA2 /* Pods */,
+				64004A77560D2A4B974F658D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +82,64 @@
 		BEBA74951CF254F600206117 /* GoldWeather */ = {
 			isa = PBXGroup;
 			children = (
+				BEBA74B01CF2660200206117 /* Util */,
+				BEBA74AF1CF265FD00206117 /* Resources */,
+				BEBA74AE1CF265F800206117 /* Services */,
+				BEBA74AA1CF265DC00206117 /* Model */,
+				BEBA74AB1CF265E200206117 /* View */,
+				BEBA74AC1CF265E600206117 /* Controller */,
 				BEBA74961CF254F600206117 /* AppDelegate.swift */,
-				BEBA74981CF254F600206117 /* ViewController.swift */,
-				BEBA749A1CF254F600206117 /* Main.storyboard */,
-				BEBA749D1CF254F600206117 /* Assets.xcassets */,
-				BEBA749F1CF254F600206117 /* LaunchScreen.storyboard */,
 				BEBA74A21CF254F600206117 /* Info.plist */,
 			);
 			path = GoldWeather;
+			sourceTree = "<group>";
+		};
+		BEBA74AA1CF265DC00206117 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BEBA74B71CF27D4E00206117 /* Weather.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BEBA74AB1CF265E200206117 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BEBA749A1CF254F600206117 /* Main.storyboard */,
+				BEBA749F1CF254F600206117 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		BEBA74AC1CF265E600206117 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BEBA74B31CF267E600206117 /* ChooseLocationVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		BEBA74AE1CF265F800206117 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		BEBA74AF1CF265FD00206117 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BEBA749D1CF254F600206117 /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BEBA74B01CF2660200206117 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				BEBA74A81CF2590900206117 /* Constants.swift */,
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +149,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BEBA74A51CF254F600206117 /* Build configuration list for PBXNativeTarget "GoldWeather" */;
 			buildPhases = (
+				1B7471B1F1A89B929C732CF6 /* Check Pods Manifest.lock */,
 				BEBA748F1CF254F600206117 /* Sources */,
 				BEBA74901CF254F600206117 /* Frameworks */,
 				BEBA74911CF254F600206117 /* Resources */,
+				4819B2853AA19511357547BB /* Embed Pods Frameworks */,
+				FD45622393FD02A7CEE24814 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +177,7 @@
 				TargetAttributes = {
 					BEBA74921CF254F600206117 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5CD98SFE9J;
 					};
 				};
 			};
@@ -130,13 +212,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1B7471B1F1A89B929C732CF6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4819B2853AA19511357547BB /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoldWeather/Pods-GoldWeather-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD45622393FD02A7CEE24814 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoldWeather/Pods-GoldWeather-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BEBA748F1CF254F600206117 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEBA74991CF254F600206117 /* ViewController.swift in Sources */,
+				BEBA74B41CF267E600206117 /* ChooseLocationVC.swift in Sources */,
 				BEBA74971CF254F600206117 /* AppDelegate.swift in Sources */,
+				BEBA74A91CF2590900206117 /* Constants.swift in Sources */,
+				BEBA74B81CF27D4E00206117 /* Weather.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +381,12 @@
 		};
 		BEBA74A61CF254F600206117 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18F659B1783B854572689FA9 /* Pods-GoldWeather.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = GoldWeather/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Henrique.GoldWeather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -260,9 +395,12 @@
 		};
 		BEBA74A71CF254F600206117 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F14635B76C4EB80A01F4CD2 /* Pods-GoldWeather.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = GoldWeather/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Henrique.GoldWeather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -288,6 +426,7 @@
 				BEBA74A71CF254F600206117 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
