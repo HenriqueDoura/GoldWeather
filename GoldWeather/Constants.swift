@@ -9,6 +9,6 @@
 import Foundation
 
 let BASE_URL = "http://api.openweathermap.org/data/2.5/weather?q="
-let API_KEY = "&appid=16aef6e42ea68c7c0e2b2ae3a7f4155b"
+let API_KEY = "&appid=YOURKEYHERE"
 
 typealias DownloadComplete = () -> ()
